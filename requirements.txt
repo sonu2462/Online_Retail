@@ -1,6 +1,1 @@
-streamlit
-pandas
-scikit-learn==1.2.2
-imblearn==0.10.1
-matplotlib
-seaborn
+
