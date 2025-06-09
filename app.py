@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 # 1. Load and preprocess data
 @st.cache_data
 def load_and_process_data():
-    df = pd.read_csv(r"C:\Users\sonal\Downloads\Sonali ML Fnl\Sonali ML\online_shoppers_intention.csv")
+    df = pd.read_csv("C:\Users\sonal\Downloads\Sonali ML Fnl\Sonali ML\online_shoppers_intention.csv")
     
     target_column = 'Revenue'
     X = df.drop(columns=[target_column])
